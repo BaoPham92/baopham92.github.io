@@ -1,0 +1,42 @@
+body {
+background-color: rgb(102,102,102);
+
+
+}
+
+ul {
+list-style: none;
+
+
+}
+
+.liInfo {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+/*// Below is the indicator for the class to be added to specific p tags
+// To be edited along with other visuals later.*/
+/*
+.flexInfo:nth-of-type(1) {order: 1}
+.flexInfo:nth-of-type(2) {order: 2}
+.flexInfo:nth-of-type(3) {order: 3}
+.flexInfo:nth-of-type(4) {order: 4}
+.flexInfo:nth-of-type(5) {order: 5}*/
+
+/*// Below will be boxes to withold info for the li tags
+*/
+.flexInfo {
+color: red;
+/*border: 1px solid red;
+padding: 10px;
+width: 200px;
+height: 200px;*/
+/*margin: 10px;
+*/
+}
+
+/*// attempting to create a box for the p tags in HTML to contain info.
+// so far still trying to debug this*/
